@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.team-matches-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+}
+.banner-image {
+  width: 100%;
+}
+.latest-matches-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 10px;
+}
+.match-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

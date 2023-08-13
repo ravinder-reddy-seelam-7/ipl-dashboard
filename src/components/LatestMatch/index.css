@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.match-container {
+  color: #ffffff;
+}
+.match-sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.match-first-container {
+  width: 70%;
+}
+.team-logo-container {
+  width: 30%;
+}
+.competing-team {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.date {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.venue {
+  font-weight: normal;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.result {
+  font-weight: normal;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.team-logo {
+  width: 100%;
+}
+.lg-heading {
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.lg-text {
+  font-weight: normal;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.team-stats-lg-container {
+  display: none;
+}
+.line {
+  padding: 0;
+  display: block;
+}
+.team-stats-sm-container {
+  display: block;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .match-first-container {
+    width: 30%;
+  }
+  .team-logo-container {
+    width: 30%;
+  }
+  .team-stats-lg-container {
+    display: block;
+    text-align: right;
+    width: 30%;
+  }
+  .team-stats-sm-container {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+}
