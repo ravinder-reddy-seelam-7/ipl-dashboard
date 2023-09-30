@@ -37,7 +37,7 @@ class Home extends Component {
         </div>
 
         {homeLoaderState ? (
-          <div data-testid="loader" className="loader">
+          <div testid="loader" className="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
