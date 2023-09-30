@@ -109,7 +109,7 @@ class TeamMatches extends Component {
     return (
       <div className={`team-matches-bg-container ${bgStyling}`}>
         {teamMatchesLoaderState ? (
-          <div data-testid="loader" className="loader">
+          <div testid="loader" className="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
